@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className="navbar navbar-default navbar-fixed-top dark">
       <div className="container">
         <div className="navbar-header">
           <button
@@ -17,9 +17,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand gold page-scroll" href="#page-top">
             SPARTAN
-          </a>{" "}
+          </a>
+          <img src="img/title.jpeg" height={50} width={60}></img>
+          {" "}
         </div>
 
         <div
@@ -28,37 +30,37 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="#features" className="gold page-scroll">
                 Features
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="#about" className="gold page-scroll">
                 About
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="#services" className="gold page-scroll">
                 Services
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="#portfolio" className="gold page-scroll">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href="#testimonials" className="gold page-scroll">
                 Testimonials
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <a href="#team" className="gold page-scroll">
                 Team
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="#contact" className="gold page-scroll">
                 Contact
               </a>
             </li>

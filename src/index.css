@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dark{
+  background:linear-gradient(115deg, #000000, #444444) !important;
+  color: white !important;
+}
+.gold{
+  color: rgb(218,165,32) !important;
+}
+.khaki{
+  color: #F0E68C !important;
+}
+.goldengray{
+  background-color: #353530 !important;
+}
+.title{
+  font-size: 4vw;
+}

@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, rgb(218,165,32) 0%, #F0E68C 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, rgb(218,165,32) 0%, #F0E68C 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #F0E68C 0%, rgb(218,165,32) 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +166,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: rgb(218,165,32);
+  background-image: linear-gradient(to right, #F0E68C, 0%, rgb(218,165,32) 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -182,9 +182,9 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: #0e0e0e;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #F0E68C;
 }
 .btn:active,
 .btn.active {
@@ -208,12 +208,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background:linear-gradient(115deg, #000000, #444444);
   background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -229,7 +225,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #F0E68C;
 }
 .intro p {
   color: #fff;
@@ -240,7 +236,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 250px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -257,7 +253,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, rgb(218,165,32) 0%, #F0E68C 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +272,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #F0E68C 0%, rgb(218,165,32) 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +287,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #F0E68C;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -310,7 +306,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background:linear-gradient(115deg, #000000, #444444);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +330,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, rgb(218,165,32) 0%, #F0E68C 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -460,7 +456,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background:linear-gradient(115deg, #000000, #444444) !important;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
