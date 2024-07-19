@@ -1,4 +1,3 @@
-import React from "react";
 
 export const Header = (props) => {
   
@@ -9,10 +8,10 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <p className="khaki title">
+                <h3 className="khaki title">
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
-                </p>
+                </h3>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   href="#features"
