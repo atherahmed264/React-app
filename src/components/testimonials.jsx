@@ -11,7 +11,7 @@ export const Testimonials = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
-                  <div className="testimonial">
+                  <div className="testimonial" data-aos="fade-in">
                     <div className="testimonial-image">
                       {" "}
                       <img src={d.img} alt="" />{" "}
